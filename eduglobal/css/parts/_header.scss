@@ -1,0 +1,30 @@
+#header-contact {
+  background-color: $background-color;
+  padding: 10px 0px;
+  .contact {
+    li {
+      padding-right: 10px;
+      a {
+        color: $helper-color-white;
+        text-decoration-line: none;
+        i {
+          padding-right: 6px;
+        }
+      }
+    }
+  }
+
+  .social {
+    li {
+      padding-left: 20px;
+      i {
+        color: $helper-color-white;
+      }
+    }
+  }
+
+  .userlogin {
+    color: $helper-color-white;
+    text-decoration-line: none;
+  }
+}
