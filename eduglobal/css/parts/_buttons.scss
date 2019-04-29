@@ -6,7 +6,7 @@ li {
         color: $default-color !important;
       }
     }
-    // color: $helper-color-white !important;
+    // color: $helper-color-white 
     @include transition(all 0.5s);
     &:hover {
       color: $default-color !important;

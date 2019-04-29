@@ -1,0 +1,59 @@
+.modal-content {
+  .container {
+    padding-left: 0px;
+    .row {
+      .col-lg-5 {
+        img {
+          background-position: center center;
+          background-size: cover;
+          width: 100%;
+          height: 100% !important;
+        }
+      }
+    }
+  }
+}
+
+.modal-content-pad {
+  padding: 30px;
+}
+
+.different_login {
+  &::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 50%;
+    right: 0;
+    border-top: 1px solid #ddd;
+    -moz-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+}
+
+.different_login {
+  span {
+    &::before {
+      background-color: #fff;
+      padding: 0 15px;
+      position: relative;
+      text-transform: uppercase;
+    }
+  }
+}
+
+.login_footer {
+  a {
+    float: right;
+    color: $shadow-color;
+    text-decoration-line: none;
+    cursor: pointer;
+  } 
+  
+}
+
+
+.form-check-label{
+    cursor: pointer;
+}
