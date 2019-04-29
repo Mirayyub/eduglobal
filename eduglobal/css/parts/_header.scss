@@ -1,3 +1,6 @@
+
+
+
 #header-contact {
   background-color: $background-color;
   padding: 10px 0px;
@@ -14,6 +17,8 @@
     }
   }
 
+
+
   .social {
     li {
       padding-left: 20px;
@@ -28,3 +33,15 @@
     text-decoration-line: none;
   }
 }
+
+.nav-item {
+  
+  font-size: small;
+  font-weight: 700;
+
+}
+
+.navbar-light{.navbar-nav{.nav-link{ color: $background-color;} }}   
+  
+
+  

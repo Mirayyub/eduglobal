@@ -1,0 +1,16 @@
+.alert{
+    text-align: center;
+    color:$helper-color-white;
+    background-color: $alertbox-color;
+    margin: 0 auto;
+    font-weight: 700;
+    a{
+  color: $helper-color-white;
+  text-decoration-line: underline;
+  
+    }
+    i{
+      cursor: pointer;
+    }
+  }
+  

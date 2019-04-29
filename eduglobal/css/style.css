@@ -90,8 +90,16 @@ table {
           text-decoration-line: none;
 }
 
+.nav-item {
+  font-size: small;
+  font-weight: 700;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #343a40;
+}
+
 li a {
-  color: #fff !important;
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
 }
@@ -116,5 +124,23 @@ li a:hover {
 
 .btn-warning:hover {
   background-color: #d39e00 !important;
+}
+
+.alert {
+  text-align: center;
+  color: #fff;
+  background-color: #f5576c;
+  margin: 0 auto;
+  font-weight: 700;
+}
+
+.alert a {
+  color: #fff;
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+}
+
+.alert i {
+  cursor: pointer;
 }
 /*# sourceMappingURL=style.css.map */
