@@ -99,6 +99,19 @@ table {
   color: #343a40;
 }
 
+.borderlist {
+  position: relative;
+}
+
+.borderlist::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  height: 20px;
+  width: 0.5px;
+  background-color: #fff;
+}
+
 li a {
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
@@ -214,5 +227,16 @@ li a:hover {
   background-color: #d33d2b;
   border-color: #d33d2b;
   color: #fff;
+}
+
+section {
+  position: relative;
+}
+
+.carousel-inner img {
+  height: 80vh;
+  -o-object-fit: cover;
+     object-fit: cover;
+  background-color: rgba(255, 0, 0, 0.25);
 }
 /*# sourceMappingURL=style.css.map */

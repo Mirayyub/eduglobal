@@ -43,5 +43,16 @@
 
 .navbar-light{.navbar-nav{.nav-link{ color: $background-color;} }}   
   
+.borderlist{
+  position: relative;
+  &::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    height: 20px;
+    width: 0.5px;
+    background-color: $helper-color-white;
+}}
+
 
   

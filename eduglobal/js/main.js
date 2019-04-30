@@ -12,4 +12,6 @@ $(document).ready(function(){
     $('#myInput').trigger('focus')
   })
 
-  
+  $('.carousel').carousel({
+    interval: 2000
+  })
