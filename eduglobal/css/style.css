@@ -3,58 +3,8 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-size: 100%;
-  font: inherit;
-  vertical-align: baseline;
-}
-
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
-  display: block;
-}
-
-body {
-  line-height: 1;
-}
-
 ol, ul {
   list-style: none;
-}
-
-blockquote, q {
-  quotes: none;
-}
-
-blockquote:before, blockquote:after,
-q:before, q:after {
-  content: '';
-  content: none;
-}
-
-table {
-  border-collapse: collapse;
-  border-spacing: 0;
 }
 
 #header-contact {
@@ -237,6 +187,135 @@ section {
   height: 80vh;
   -o-object-fit: cover;
      object-fit: cover;
-  background-color: rgba(255, 0, 0, 0.25);
+}
+
+.carousel-inner img:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.349);
+}
+
+.carousel-item .carousel-caption {
+  position: absolute;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  top: 220px;
+}
+
+.carousel-item .carousel-caption h2 {
+  font-size: 3.5rem;
+  margin-bottom: 5px;
+}
+
+.carousel-item .carousel-caption p {
+  font-size: 1rem;
+  letter-spacing: 1.2px;
+  margin: 10px;
+}
+
+.carousel-item {
+  width: 100%;
+  position: relative;
+}
+
+.carousel-item img {
+  width: 100vw;
+  height: 100vh;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.carousel-item:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+#chooseedu {
+  background-color: #f7f7f7;
+  padding-top: 100px;
+  margin-bottom: 50px;
+}
+
+#chooseedu .col-md-6 {
+  margin-bottom: 50px;
+}
+
+#chooseedu .item {
+  text-align: center;
+  padding: 25px 30px;
+  border-radius: 10px;
+  background-color: #fff;
+  -webkit-box-shadow: 0 10px 30px #b8b5b5d3;
+  box-shadow: 0 10px 30px #b8b5b5d3;
+}
+
+#chooseedu .item .liticon {
+  height: 100px;
+  width: 100px;
+  border-radius: 100%;
+  line-height: 90px;
+  margin-bottom: 30px;
+  display: inline-block;
+  position: relative;
+}
+
+#chooseedu .item .liticon:after {
+  content: "";
+  position: absolute;
+  top: -6px;
+  left: -6px;
+  border: 4px solid #fff;
+  height: 113px;
+  width: 113px;
+  border-radius: 100%;
+}
+
+#chooseedu .item .liticon img {
+  width: 50%;
+  height: 50%;
+}
+
+#chooseedu .item h3 {
+  color: #292b2c;
+}
+
+#chooseedu .item p {
+  color: #888888;
+}
+
+#chooseedu .col-md-4:nth-child(1) .liticon {
+  background-color: #f5576c;
+}
+
+#chooseedu .col-md-4:nth-child(2) .liticon {
+  background-color: #ffbc09;
+}
+
+#chooseedu .col-md-4:nth-child(3) .liticon {
+  background-color: #b3d369;
+}
+
+#chooseedu .item:hover {
+  -webkit-transform: translateY(-15px);
+  transform: translateY(-15px);
+  -webkit-transition: all 0.8s ease-in-out;
+  transition: all 0.8s ease-in-out;
+}
+
+#chooseedu .item:hover .liticon:after {
+  -webkit-transform: scale(0.75, 0.75);
+  transform: scale(0.75, 0.75);
+  -webkit-transition: 1s;
+  transition: 1s;
 }
 /*# sourceMappingURL=style.css.map */

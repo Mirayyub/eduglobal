@@ -1,0 +1,52 @@
+// .carousel-caption {
+//     position: absolute;
+//     right: 38%;
+//     bottom: 20px;
+//     left: 15%;
+//     z-index: 10;
+//     padding-top: 20px;
+//     padding-bottom: 20px;
+//     color: #fff;
+//     text-align: center;
+// }
+
+.carousel-item .carousel-caption {
+  position: absolute;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  top: 220px;
+}
+
+.carousel-item .carousel-caption h2 {
+  font-size: 3.5rem;
+  margin-bottom: 5px;
+}
+
+.carousel-item .carousel-caption p {
+  font-size: 1rem;
+  letter-spacing: 1.2px;
+  margin: 10px;
+}
+
+.carousel-item {
+  width: 100%;
+  position: relative;
+
+  img {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+  }
+
+//   before overlay like opacity
+  &:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+}
