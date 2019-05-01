@@ -1,0 +1,18 @@
+#aboutus{
+    .w-100{
+        position: relative;
+    }
+    a{
+        position: absolute;
+        /* right: 76px; */
+        left: 50%;
+        top: 50%;
+    }
+
+    .overlap_section {
+        margin-right: -50px;
+        position: relative;
+        z-index: 2;
+        border-radius: 0 200px 200px 0;
+    }
+}
