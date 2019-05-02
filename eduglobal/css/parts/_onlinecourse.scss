@@ -1,0 +1,38 @@
+#onlinecourse{
+    width: 100%;
+    height:738px;
+    background-image: url(../../img/pattern_bg.png);
+    background-position: center;
+    background-size: cover;
+    padding: 100px;
+    position: relative;
+    &::before{
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+background-color:#07294D;
+    }
+    .register_form {
+        background-color: rgba(255,255,255,0.1);
+        
+    }
+    .radius_all_10 {
+        border-radius: 10px;
+    }
+    .padding_eight_all {
+        padding: 8%;
+    }
+
+    h2{
+        color: $helper-color-white;
+        span{
+            color: $default-color;
+         }
+    }
+    p{
+        color:$helper-color-white;
+    }
+}

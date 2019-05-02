@@ -18,6 +18,8 @@ $(document).ready(function(){
     interval: 20000
   })
 
+
+  // Owl carusel
   $('.owl-carousel').owlCarousel({
     rtl:false,
     loop:true,
@@ -36,3 +38,4 @@ $(document).ready(function(){
         }
     }
 })
+
