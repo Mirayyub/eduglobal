@@ -12,12 +12,19 @@
     <!-- Animat CSS  -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
 
+    <!-- Aos Animation -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 
+    <!-- Counter up  -->
+
+
     <!-- OWL Carusel -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" />
 
     <!-- Own CSS -->
     <link rel="stylesheet" href="css/style.css">
@@ -26,6 +33,9 @@
 <body>
 
     <header>
+
+
+        
         <!-- Alert box start -->
         <section id="alert">
             <div class="alert">Unlimited online course video tutorials downloads! <a href="#">Get 30% off</a>
@@ -35,6 +45,12 @@
 
 
         <!-- Alert Box end  -->
+
+
+
+
+
+
 
         <!--Header Info Start-->
 
@@ -76,27 +92,29 @@
                     <div class="col-lg-1">
                         <ul class="d-flex justify-content-end borderlist">
                             <li>
-                                <a href="#" data-toggle="modal" data-target=".bd-example-modal-lg" class="userlogin">Login</a>
+                                <a href="#" data-toggle="modal" data-target=".bd-example-modal-lg"
+                                    class="userlogin">Login</a>
                             </li>
 
                             <!-- Large modal -->
 
-                            <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
-                                aria-hidden="true">
+                            <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog"
+                                aria-labelledby="myLargeModalLabel" aria-hidden="true">
                                 <div class="modal-dialog modal-lg">
                                     <div class="modal-content">
                                         <div class="container">
                                             <div class="row">
                                                 <div class="col-lg-5"><img src="img/login_img.jpg"></div>
-                                                <div class="col-lg-7"><button type="button" class="close" data-dismiss="modal"
-                                                        aria-label="Close">
+                                                <div class="col-lg-7"><button type="button" class="close"
+                                                        data-dismiss="modal" aria-label="Close">
                                                         <span aria-hidden="true">&times;</span>
                                                     </button>
                                                     <div class="modal-content-pad">
                                                         <ul class="nav nav-tabs">
-                                                            <li class="nav-item"><a class="nav-link active" id="login-tab1"
-                                                                    data-toggle="tab" href="#login" role="tab"
-                                                                    aria-controls="login" aria-selected="true">Login</a></li>
+                                                            <li class="nav-item"><a class="nav-link active"
+                                                                    id="login-tab1" data-toggle="tab" href="#login"
+                                                                    role="tab" aria-controls="login"
+                                                                    aria-selected="true">Login</a></li>
 
                                                             <li class="nav-item">
                                                                 <a class="nav-link" id="signup-tab1" data-toggle="tab"
@@ -107,7 +125,8 @@
                                                         </ul>
                                                     </div>
                                                     <div class="tab-content">
-                                                        <div class="tab-pane fade active show" id="login" role="tabpanel">
+                                                        <div class="tab-pane fade active show" id="login"
+                                                            role="tabpanel">
                                                             <div class="heading_s1 mb-3">
                                                                 <h1>Login</h1>
                                                             </div>
@@ -117,31 +136,37 @@
                                                                         name="email" placeholder="Email">
                                                                 </div>
                                                                 <div class="form-group">
-                                                                    <input class="form-control" required="" type="password"
-                                                                        name="password" placeholder="Password">
+                                                                    <input class="form-control" required=""
+                                                                        type="password" name="password"
+                                                                        placeholder="Password">
                                                                 </div>
                                                                 <div class="login_footer form-group">
                                                                     <a href="#">Lost your password?</a>
                                                                     <div class="chek-form mb-3">
                                                                         <div class="custome-checkbox">
-                                                                            <input class="form-check-input" type="checkbox"
-                                                                                name="checkbox" id="exampleCheckbox3"
-                                                                                value="">
-                                                                            <label class="form-check-label" for="exampleCheckbox3">Remember
+                                                                            <input class="form-check-input"
+                                                                                type="checkbox" name="checkbox"
+                                                                                id="exampleCheckbox3" value="">
+                                                                            <label class="form-check-label"
+                                                                                for="exampleCheckbox3">Remember
                                                                                 me</label>
                                                                         </div>
                                                                     </div>
                                                                 </div>
                                                                 <div class="form-group">
-                                                                    <button type="submit" class="btn btn-default btn-block"
+                                                                    <button type="submit"
+                                                                        class="btn btn-default btn-block"
                                                                         name="login">Log in</button>
                                                                 </div>
                                                             </form>
 
-                                                            <ul class="btn-login list_none d-flex justify-content-center text-center">
-                                                                <li><a href="#" class="btn btn-facebook"><i class="fab fa-facebook">
+                                                            <ul
+                                                                class="btn-login list_none d-flex justify-content-center text-center">
+                                                                <li><a href="#" class="btn btn-facebook"><i
+                                                                            class="fab fa-facebook">
                                                                             Facebook</i></a></li>
-                                                                <li><a href="#" class="btn btn-google"><i class="fab fa-google-plus-g">
+                                                                <li><a href="#" class="btn btn-google"><i
+                                                                            class="fab fa-google-plus-g">
                                                                             Google</i></a></li>
                                                             </ul>
                                                         </div>
@@ -159,23 +184,29 @@
                                                                         name="email" placeholder="Email">
                                                                 </div>
                                                                 <div class="form-group">
-                                                                    <input class="form-control" required="" type="password"
-                                                                        name="password" placeholder="Password">
+                                                                    <input class="form-control" required=""
+                                                                        type="password" name="password"
+                                                                        placeholder="Password">
                                                                 </div>
                                                                 <div class="form-group">
-                                                                    <input class="form-control" required="" type="password"
-                                                                        name="cpassword" placeholder="Confirm Password">
+                                                                    <input class="form-control" required=""
+                                                                        type="password" name="cpassword"
+                                                                        placeholder="Confirm Password">
                                                                 </div>
                                                                 <div class="form-group">
-                                                                    <button type="submit" class="btn btn-default btn-block"
+                                                                    <button type="submit"
+                                                                        class="btn btn-default btn-block"
                                                                         name="login">Sign Up</button>
                                                                 </div>
                                                             </form>
 
-                                                            <ul class="btn-login list_none d-flex justify-content-center text-center">
-                                                                <li><a href="#" class="btn btn-facebook"><i class="fab fa-facebook">
+                                                            <ul
+                                                                class="btn-login list_none d-flex justify-content-center text-center">
+                                                                <li><a href="#" class="btn btn-facebook"><i
+                                                                            class="fab fa-facebook">
                                                                             Facebook</i></a></li>
-                                                                <li><a href="#" class="btn btn-google"><i class="fab fa-google-plus-g">
+                                                                <li><a href="#" class="btn btn-google"><i
+                                                                            class="fab fa-google-plus-g">
                                                                             Google</i></a></li>
                                                             </ul>
                                                         </div>
@@ -195,7 +226,7 @@
                             Now
                         </a>
 
-                        </ul>
+
                     </div>
                 </div>
 
@@ -204,14 +235,18 @@
         </section>
         <!--Header Info End-->
 
+
+
+
         <!-- Header navbar -->
         <section id="header-navbar">
             <div class="container">
                 <div class="row mt-2">
-                    <div class="col-lg-3 d-flex justify-content-start"><a class="navbar-brand" href="#"><img src="img/logo_dark.png"
-                                alt="" srcset=""></a>
-                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-                            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <div class="col-lg-3 d-flex justify-content-start"><a class="navbar-brand" href="#"><img
+                                src="img/logo_dark.png"></a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse"
+                            data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
                             <span class="navbar-toggler-icon"></span>
                         </button></div>
                     <div class="col-lg-9 d-flex justify-content-end">
@@ -296,9 +331,18 @@
                 </div>
             </div>
         </section>
+
         <!-- Header Navbar End -->
     </header>
+
+
+
+
+
     <main>
+
+
+
 
         <!-- Start Slider -->
         <div class="images">
@@ -309,17 +353,20 @@
                             <img src="img/banner1.jpg" class="d-block w-100" alt="...">
                             <div class="carousel-caption">
                                 <h2 class="font-weight-bold animation text-uppercase animated fadeInDown"
-                                    data-animation="fadeInDown" data-animation-delay="1s" style="animation-delay: 1s; opacity: 1;">WELCOME
+                                    data-animation="fadeInDown" data-animation-delay="1s"
+                                    style="animation-delay: 1s; opacity: 1;">WELCOME
                                     TO EDUGLOBAL</h2>
-                                <p class="animation animated fadeInUp" data-animation="fadeInUp" data-animation-delay="1.5s"
-                                    style="animation-delay: 1.5s; opacity: 1;">Lorem is
+                                <p class="animation animated fadeInUp" data-animation="fadeInUp"
+                                    data-animation-delay="1.5s" style="animation-delay: 1.5s; opacity: 1;">Lorem is
                                     simply text of the printing and typesetting industry.</p>
                                 <a href="#" class="btn btn-colors text-white btn-warning  animation animated fadeInUp"
-                                    href="#" data-animation="fadeInUp" data-animation-delay="1.8s" style="animation-delay: 1.8s; opacity: 1;">Get
+                                    href="#" data-animation="fadeInUp" data-animation-delay="1.8s"
+                                    style="animation-delay: 1.8s; opacity: 1;">Get
                                     Started
                                 </a>
                                 <a class="btn btn-outline-secondary animation animated fadeInUp" href="#"
-                                    data-animation="fadeInUp" data-animation-delay="1.8s" style="animation-delay: 1.8s; opacity: 1;">Learn
+                                    data-animation="fadeInUp" data-animation-delay="1.8s"
+                                    style="animation-delay: 1.8s; opacity: 1;">Learn
                                     More</a>
                             </div>
 
@@ -328,17 +375,20 @@
                             <img src="img/banner2.jpg" class="d-block w-100" alt="...">
                             <div class="carousel-caption">
                                 <h2 class="font-weight-bold animation text-uppercase animated fadeInDown"
-                                    data-animation="fadeInDown" data-animation-delay="1s" style="animation-delay: 1s; opacity: 1;">LEARN
+                                    data-animation="fadeInDown" data-animation-delay="1s"
+                                    style="animation-delay: 1s; opacity: 1;">LEARN
                                     ONLINE COURSES</h2>
-                                <p class="animation animated fadeInUp" data-animation="fadeInUp" data-animation-delay="1.5s"
-                                    style="animation-delay: 1.5s; opacity: 1;">Contrary to
+                                <p class="animation animated fadeInUp" data-animation="fadeInUp"
+                                    data-animation-delay="1.5s" style="animation-delay: 1.5s; opacity: 1;">Contrary to
                                     popular belief, Lorem Ipsum is not simply random</p>
                                 <a href="#" class="btn btn-colors text-white btn-warning  animation animated fadeInUp"
-                                    href="#" data-animation="fadeInUp" data-animation-delay="1.8s" style="animation-delay: 1.8s; opacity: 1;">Get
+                                    href="#" data-animation="fadeInUp" data-animation-delay="1.8s"
+                                    style="animation-delay: 1.8s; opacity: 1;">Get
                                     Started
                                 </a>
                                 <a class="btn btn-outline-secondary animation animated fadeInUp" href="#"
-                                    data-animation="fadeInUp" data-animation-delay="1.8s" style="animation-delay: 1.8s; opacity: 1;">Learn
+                                    data-animation="fadeInUp" data-animation-delay="1.8s"
+                                    style="animation-delay: 1.8s; opacity: 1;">Learn
                                     More</a>
                             </div>
                         </div>
@@ -346,17 +396,20 @@
                             <img src="img/banner3.jpg" class="d-block w-100" alt="...">
                             <div class="carousel-caption">
                                 <h2 class="font-weight-bold animation text-uppercase animated fadeInDown"
-                                    data-animation="fadeInDown" data-animation-delay="1s" style="animation-delay: 1s; opacity: 1;">EDUCTION
+                                    data-animation="fadeInDown" data-animation-delay="1s"
+                                    style="animation-delay: 1s; opacity: 1;">EDUCTION
                                     FROM A NEW ANGLE</h2>
-                                <p class="animation animated fadeInUp" data-animation="fadeInUp" data-animation-delay="1.5s"
-                                    style="animation-delay: 1.5s; opacity: 1;">Contrary to
+                                <p class="animation animated fadeInUp" data-animation="fadeInUp"
+                                    data-animation-delay="1.5s" style="animation-delay: 1.5s; opacity: 1;">Contrary to
                                     popular belief, Lorem Ipsum is not simply random</p>
                                 <a href="#" class="btn btn-colors text-white btn-warning  animation animated fadeInUp"
-                                    href="#" data-animation="fadeInUp" data-animation-delay="1.8s" style="animation-delay: 1.8s; opacity: 1;">Get
+                                    href="#" data-animation="fadeInUp" data-animation-delay="1.8s"
+                                    style="animation-delay: 1.8s; opacity: 1;">Get
                                     Started
                                 </a>
                                 <a class="btn btn-outline-secondary animation animated fadeInUp" href="#"
-                                    data-animation="fadeInUp" data-animation-delay="1.8s" style="animation-delay: 1.8s; opacity: 1;">Learn
+                                    data-animation="fadeInUp" data-animation-delay="1.8s"
+                                    style="animation-delay: 1.8s; opacity: 1;">Learn
                                     More</a>
                             </div>
                         </div>
@@ -377,13 +430,15 @@
 
 
 
+
+
+
         <!-- Why Choose Eduglobal start -->
         <section id="chooseedu">
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-md-6">
-                        <div class="text-center animation animated fadeInUp" data-animation="fadeInUp"
-                            data-animation-delay="0.02s" style="animation-delay: 0.01s; opacity: 1;">
+                        <div class="text-center" data-aos="fade-up" data-aos-duration="3000">
                             <div class="heading_s1 text-center">
                                 <h2 class="chooseedu">Why Choose Eduglobal</h2>
                             </div>
@@ -394,7 +449,7 @@
                 </div>
                 <div class="row">
                     <div class="col-md-4">
-                        <div class="item">
+                        <div class="item" data-aos="fade-up" data-aos-duration="3000">
                             <div class="liticon">
                                 <img src="img/book.png" alt="book">
                             </div>
@@ -406,7 +461,7 @@
                         </div>
                     </div>
                     <div class="col-md-4">
-                        <div class="item">
+                        <div class="item" data-aos="fade-up" data-aos-duration="3000">
                             <div class="liticon">
                                 <img src="img/globe.png" alt="globe">
                             </div>
@@ -418,7 +473,7 @@
                         </div>
                     </div>
                     <div class="col-md-4">
-                        <div class="item">
+                        <div class="item" data-aos="fade-up" data-aos-duration="3000">
                             <div class="liticon">
                                 <img src="img/instructors.png" alt="">
                             </div>
@@ -433,13 +488,18 @@
 
         </section>
         <!-- Why Choose Eduglobal end -->
+
+
+
+
+
+
         <!-- Most Popular Categories start -->
         <section id="mostpop">
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-md-6">
-                        <div class="text-center animation animated fadeInUp" data-animation="fadeInUp"
-                            data-animation-delay="0.02s" style="animation-delay: 0.01s; opacity: 1;">
+                        <div class="text-center" data-aos="fade-up" data-aos-duration="3000">
                             <div class="heading_s1 text-center">
                                 <h2 class="mostpop">Most Popular Categories</h2>
                             </div>
@@ -448,9 +508,9 @@
                         </div>
                     </div>
                 </div>
-                <div class="row animation animated fadeInUp">
+                <div class="row ">
                     <div class="col-lg-12">
-                        <div class="owl-carousel owl-theme">
+                        <div class="owl-carousel owl-theme" data-aos="fade-up" data-aos-duration="3000">
                             <a href="#">
                                 <div class="item business">
                                     <i class="fa fa-chart-line"></i>
@@ -498,11 +558,18 @@
                 </div>
         </section>
         <!-- Most Popular Categories end -->
+
+
+
+
+
+
+
         <!-- About Us start -->
         <section id="aboutus">
-            <div class="container-fluid">
+            <div class="container">
                 <div class="row">
-                    <div class="col-lg-6 px-0">
+                    <div class="col-lg-6" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
                         <div class="content">
                             <h2>About Us</h2>
                             <p>If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't
@@ -516,6 +583,7 @@
                                     <div class="counter_content">
                                         <h3 class="h1 text_danger"><span class="counter">260</span></h3>
                                         <p>Free Courses</p>
+
                                     </div>
                                 </li>
                                 <li>
@@ -528,8 +596,9 @@
                         </div>
                     </div>
                     <div class="col-lg-6">
-                        <div class="videoplay">
-                            <img src="img/about_img.jpg" alt="">
+                        <div class="videoplay" data-aos="fade-left" data-aos-offset="300"
+                            data-aos-easing="ease-in-sine">
+                            <img src="img/about_img.jpg">
                         </div>
                         <a href="https://www.youtube.com/embed/7e90gBu4pas"><i class="fas fa-play"></i></a>
                     </div>
@@ -539,13 +608,17 @@
 
 
         <!-- About Us end -->
+
+
+
+
+
         <!-- Our Courses start -->
         <section id="ourcourses">
             <div class="container">
                 <div class="row justify-content-center">
-                    <div class="col-md-6">
-                        <div class="text-center animation animated fadeInUp" data-animation="fadeInUp"
-                            data-animation-delay="0.02s" style="animation-delay: 0.01s; opacity: 1;">
+                    <div class="col-md-6" data-aos="fade-up" data-aos-duration="3000">
+                        <div class="text-center animation">
                             <div class="heading_s1 text-center">
                                 <h2 class="chooseedu">Our Courses</h2>
                             </div>
@@ -556,7 +629,7 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-lg-4">
+                    <div class="col-lg-4" data-aos="fade-up" data-aos-duration="3000">
                         <div class="card">
                             <div class="card-img-top">
                                 <img src="img/course_img1.jpg" alt="Card image cap">
@@ -591,7 +664,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4">
+                    <div class="col-lg-4" data-aos="fade-up" data-aos-duration="3000">
                         <div class="card">
                             <div class="card-img-top">
                                 <img src="img/course_img2.jpg" alt="Card image cap">
@@ -625,7 +698,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4">
+                    <div class="col-lg-4" data-aos="fade-up" data-aos-duration="3000">
                         <div class="card">
                             <div class="card-img-top">
                                 <img src="img/course_img3.jpg" alt="Card image cap">
@@ -659,7 +732,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4">
+                    <div class="col-lg-4" data-aos="fade-up" data-aos-duration="1000">
                         <div class="card">
                             <div class="card-img-top">
                                 <img src="img/course_img4.jpg" alt="Card image cap">
@@ -693,7 +766,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4">
+                    <div class="col-lg-4" data-aos="fade-up" data-aos-duration="1000">
                         <div class="card">
                             <div class="card-img-top">
                                 <img src="img/course_img5.jpg" alt="Card image cap">
@@ -727,10 +800,10 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4">
+                    <div class="col-lg-4" data-aos="fade-up" data-aos-duration="1000">
                         <div class="card">
                             <div class="card-img-top">
-                                <img src="img/course_img6.jpg" alt="Card image cap">
+                                <img src="img/course_img6.jpg">
                             </div>
                             <div class="card-body">
                                 <a href="#">
@@ -762,9 +835,9 @@
                         </div>
                     </div>
                 </div>
-                <div class="row d-flex justify-content-center">
+                <div class="row d-flex justify-content-center" data-aos="fade-up" data-aos-duration="1000">
                     <div class="col-md-4 text-center">
-                        <button class="btn btn-warning">
+                        <button class="btn btn-colors text-white btn-warning  ">
                             View All Courses <i class="fas fa-arrow-right"></i>
                         </button>
                     </div>
@@ -775,10 +848,14 @@
         </section>
         <!-- Our Courses end -->
 
+
+
+
+
         <!-- parallax section start -->
 
         <section id="parallax">
-            <div class="container">
+            <div class="container" data-aos="fade-up" data-aos-duration="1000">
                 <div class="row">
                     <div class="col-md-3">
                         <div class="item">
@@ -812,13 +889,18 @@
             </div>
         </section>
         <!-- parallax section end -->
+
+
+
+
+
+
         <!-- Upcomming events start-->
         <section id="event">
-            <div class="container mt-5">
+            <div class="container mt-3">
                 <div class="row justify-content-center">
                     <div class="col-md-6 mb-5">
-                        <div class="text-center animation animated fadeInUp" data-animation="fadeInUp"
-                            data-animation-delay="0.02s" style="animation-delay: 0.01s; opacity: 1;">
+                        <div class="text-center" data-aos="fade-up" data-aos-duration="3000">
                             <div class="heading_s1 text-center">
                                 <h2 class="chooseedu">Upcoming Events</h2>
                             </div>
@@ -829,7 +911,7 @@
                     </div>
                 </div>
                 <div class="row d-flex justify-content-center">
-                    <div class="col-lg-4">
+                    <div class="col-lg-4" data-aos="fade-up" data-aos-duration="3000">
                         <div class="card">
                             <div class="card-img-top">
                                 <img src="img/event_img1.jpg" alt="Card image cap">
@@ -848,7 +930,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4">
+                    <div class="col-lg-4" data-aos="fade-up" data-aos-duration="3000">
                         <div class="card">
                             <div class="card-img-top">
                                 <img src="img/event_img2.jpg" alt="Card image cap">
@@ -867,7 +949,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4">
+                    <div class="col-lg-4" data-aos="fade-up" data-aos-duration="3000">
                         <div class="card">
                             <div class="card-img-top">
                                 <img src="img/event_img3.jpg" alt="Card image cap">
@@ -890,13 +972,19 @@
             </div>
         </section>
         <!-- Upcomming events end -->
+
+
+
+
+
+
         <!-- Online Course start -->
         <section id="onlinecourse">
             <div class="container">
                 <div class="row align-items-end">
-                    <div class="col-lg-6 col-md-7" style="bottom: 100px;">
-                        <div class="register_form radius_all_10 text_white padding_eight_all animation animated fadeInLeft"
-                            data-animation="fadeInLeft" data-animation-delay="0.02s" style="animation-delay: 0.02s; opacity: 1;">
+                    <div class="col-lg-6 col-md-7" data-aos="fade-right" data-aos-offset="300"
+                        data-aos-easing="ease-in-sine" style="bottom: 100px;">
+                        <div class="register_form radius_all_10 text_white padding_eight_all">
                             <div class="heading_s1 heading_light">
                                 <h2>Get A Free <span class="text_default">Online Courses</span></h2>
                             </div>
@@ -905,8 +993,8 @@
                             <form method="post" name="enq" class="pt-md-2 form_transparent">
                                 <div class="row">
                                     <div class="form-group col-sm-6">
-                                        <input required="required" placeholder="Enter Name *" class="form-control" name="name"
-                                            type="text">
+                                        <input required="required" placeholder="Enter Name *" class="form-control"
+                                            name="name" type="text">
                                     </div>
                                     <div class="form-group col-sm-6">
                                         <input required="required" placeholder="Enter Email *" class="form-control"
@@ -928,8 +1016,8 @@
                                         </div>
                                     </div>
                                     <div class="form-group col-sm-12">
-                                        <textarea required="required" placeholder="Message *" class="form-control" name="message"
-                                            rows="4"></textarea>
+                                        <textarea required="required" placeholder="Message *" class="form-control"
+                                            name="message" rows="4"></textarea>
                                     </div>
                                     <div class="col-md-12">
                                         <a href="#" class="btn btn-colors text-white btn-warning">Registor Now
@@ -942,9 +1030,9 @@
                             </form>
                         </div>
                     </div>
-                    <div class="col-lg-6 col-md-5">
-                        <div class="text-center animation animated fadeInRight" data-animation="fadeInRight"
-                            data-animation-delay="0.03s" style="animation-delay: 0.03s; opacity: 1;">
+                    <div class="col-lg-6 col-md-5" data-aos="fade-left" data-aos-offset="300"
+                        data-aos-easing="ease-in-sine">
+                        <div class="text-center">
                             <img src="img/girl_img.png" alt="girl_img">
                         </div>
                     </div>
@@ -953,13 +1041,14 @@
         </section>
         <!-- Online Course end -->
 
+
+
         <!-- Our Gallery start -->
         <section id="gallery">
-            <div class="container">
+            <div class="container" data-aos="fade-up" data-aos-duration="3000">
                 <div class="row justify-content-center">
-                    <div class="col-md-6 mb-5 mt-5">
-                        <div class="text-center animation animated fadeInUp" data-animation="fadeInUp"
-                            data-animation-delay="0.02s" style="animation-delay: 0.01s; opacity: 1;">
+                    <div class="col-lg-6 mb-5 mt-5">
+                        <div class="text-center">
                             <div class="heading_s1 text-center">
                                 <h2 class="chooseedu">Our Gallery</h2>
                             </div>
@@ -968,115 +1057,548 @@
                         </div>
                     </div>
                 </div>
+                <div class="gallery-menu">
+                    <ul>
+                        <li class="active" data-filter="*">All</li>
+                        <li data-filter=".library">Library</li>
+                        <li data-filter=".campus">Campus</li>
+                        <li data-filter=".events">Events</li>
+                    </ul>
+                </div>
+                <div class="gallery-item" data-aos="fade-up" data-aos-duration="3000">
+                    <div class="col-lg-4">
+                        <div class="item events">
+                            <img src="img/gallery_item_small1_360X240.jpg">
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="item campus">
+                            <img src="img/gallery_item_small2_360X240.jpg">
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="item events">
+                            <img src="img/gallery_item_small3_360X240.jpg">
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="item library">
+                            <img src="img/gallery_item_small4_360X240.jpg">
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="item campus">
+                            <img src="img/gallery_item_small5_360X240.jpg">
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
 
-                <div class="row">
-                    <div class="col-md-8">
-                        <div id="filters" class="button-group"> <button class="button is-checked btn btn-colors text-white btn-warning"
-                                data-filter="*">All</button>
-                            <button class="button btn btn-colors text-white btn-warning" data-filter=".metal">metal</button>
-                            <button class="button btn btn-colors text-white btn-warning" data-filter=".transition">transition</button>
-                            <button class="button btn btn-colors text-white btn-warning" data-filter=".alkali, .alkaline-earth">alkali
-                                and alkaline-earth</button>
+                        <div class="item campus">
+                            <img src="img/gallery_item_small6_360X240.jpg">
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="item library">
+                            <img src="img/gallery_item_small7_360X240.jpg">
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="item library">
+                            <img src="img/gallery_item_small8_360X240.jpg">
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="item events">
+                            <img src="img/gallery_item_small9_360X240.jpg">
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="item library">
+                            <img src="img/gallery_item_small10_360X240.jpg">
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="item events">
+                            <img src="img/gallery_item_small11_360X240.jpg">
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="item events">
+                            <img src="img/gallery_item_small12_360X240.jpg">
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="item library">
+                            <img src="img/gallery_item_small13_360X240.jpg">
+                        </div>
 
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="item events">
+                            <img src="img/gallery_item_small14_360X240.jpg">
+                        </div>
+
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="item campus events">
+                            <img src="img/gallery_item_small15_360X240.jpg">
                         </div>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col-lg-12">
-                        <div class="grid">
-                            <div class="element-item transition metal " data-category="transition">
-                                <h3 class="name">Mercury</h3>
-                                <p class="symbol">Hg</p>
-                                <p class="number">80</p>
-                                <p class="weight">200.59</p>
-                            </div>
-                            <div class="element-item metalloid " data-category="metalloid">
-                                <h3 class="name">Tellurium</h3>
-                                <p class="symbol">Te</p>
-                                <p class="number">52</p>
-                                <p class="weight">127.6</p>
-                            </div>
-                            <div class="element-item post-transition metal " data-category="post-transition">
-                                <h3 class="name">Bismuth</h3>
-                                <p class="symbol">Bi</p>
-                                <p class="number">83</p>
-                                <p class="weight">208.980</p>
-                            </div>
-                            <div class="element-item post-transition metal " data-category="post-transition">
-                                <h3 class="name">Lead</h3>
-                                <p class="symbol">Pb</p>
-                                <p class="number">82</p>
-                                <p class="weight">207.2</p>
-                            </div>
-                            <div class="element-item transition metal " data-category="transition">
-                                <h3 class="name">Gold</h3>
-                                <p class="symbol">Au</p>
-                                <p class="number">79</p>
-                                <p class="weight">196.967</p>
-                            </div>
-                            <div class="element-item alkali metal " data-category="alkali">
-                                <h3 class="name">Potassium</h3>
-                                <p class="symbol">K</p>
-                                <p class="number">19</p>
-                                <p class="weight">39.0983</p>
-                            </div>
-                            <div class="element-item alkali metal " data-category="alkali">
-                                <h3 class="name">Sodium</h3>
-                                <p class="symbol">Na</p>
-                                <p class="number">11</p>
-                                <p class="weight">22.99</p>
-                            </div>
-                            <div class="element-item transition metal " data-category="transition">
-                                <h3 class="name">Cadmium</h3>
-                                <p class="symbol">Cd</p>
-                                <p class="number">48</p>
-                                <p class="weight">112.411</p>
-                            </div>
-                            <div class="element-item alkaline-earth metal " data-category="alkaline-earth">
-                                <h3 class="name">Calcium</h3>
-                                <p class="symbol">Ca</p>
-                                <p class="number">20</p>
-                                <p class="weight">40.078</p>
-                            </div>
-                            <div class="element-item transition metal " data-category="transition">
-                                <h3 class="name">Rhenium</h3>
-                                <p class="symbol">Re</p>
-                                <p class="number">75</p>
-                                <p class="weight">186.207</p>
-                            </div>
-                            <div class="element-item post-transition metal " data-category="post-transition">
-                                <h3 class="name">Thallium</h3>
-                                <p class="symbol">Tl</p>
-                                <p class="number">81</p>
-                                <p class="weight">204.383</p>
-                            </div>
-                            <div class="element-item metalloid " data-category="metalloid">
-                                <h3 class="name">Antimony</h3>
-                                <p class="symbol">Sb</p>
-                                <p class="number">51</p>
-                                <p class="weight">121.76</p>
-                            </div>
-
-
-
-
-                        </div>
-                    </div>
-
-
-
-                </div>
-
             </div>
-
         </section>
-
         <!-- Our Gallery End -->
 
 
 
 
+
+        <!-- Our teachers Start -->
+
+        <section id="teachers">
+            <div class="container" data-aos="fade-up" data-aos-duration="1000">
+                <div class="row justify-content-center">
+                    <div class="col-lg-6 text-center">
+                        <div class="teachershead">
+                            <h2 class="teachers">Our Teachers</h2>
+                            <p>If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't
+                                anything embarrassing hidden in the middle of text</p>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-3">
+                        <div class="card">
+                            <div class="card-img-top">
+                                <img src="img/team_img1.jpg">
+                                <div class="social-media">
+                                    <ul>
+                                        <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-google-plus"></i></a></li>
+                                        <li><a href="#"><i class="fas fa-camera-retro"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <a href="#">Aden Smith</a>
+                                <p>Head Of Department</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="card">
+                            <div class="card-img-top">
+                                <img src="img/team_img2.jpg">
+                                <div class="social-media">
+                                    <ul>
+                                        <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-google-plus"></i></a></li>
+                                        <li><a href="#"><i class="fas fa-camera-retro"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <a href="#">Kally Brooks</a>
+                                <p>Professor</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="card">
+                            <div class="card-img-top">
+                                <img src="img/team_img3.jpg">
+                                <div class="social-media">
+                                    <ul>
+                                        <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-google-plus"></i></a></li>
+                                        <li><a href="#"><i class="fas fa-camera-retro"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <a href="#">David Clark</a>
+                                <p>Chemistry Teacher</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="card">
+                            <div class="card-img-top">
+                                <img src="img/team_img4.jpg" alt="Card image cap">
+                                <div class="social-media">
+                                    <ul>
+                                        <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-google-plus"></i></a></li>
+                                        <li><a href="#"><i class="fas fa-camera-retro"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <a href="#">Rebeca Alig</a>
+                                <p>English Teacher</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Our teachers end  -->
+
+        <!-- Student say start -->
+
+        <!-- <section id="students">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-12">
+                    <div class="text-center">
+                        <h2>Student Say!</h2>
+                        <p>If you are going to use a passage of Lorem Ipsum,you need to be sure there <br>isn't anything
+                            embarrassing hidden in the middle of text</p>
+                    </div>
+                </div>
+
+
+                <div class="col-lg-12 d-flex justify-content-center">
+                    <div id="students-say" class="owl-carousel owl-theme">
+                        <div class="item text-left">
+                            <h6>Lissa Castro</h6>
+                            <span>Co-Founder</span>
+                            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
+                                laudantium, quaeillo inventore veritatis et quasi architecto beatae vitae dicta sunt
+                                explicabo.</p>
+                            <img src="img/user1.jpg">
+                        </div>
+                        <div class="item  text-left">
+                            <h6>Lissa Castro</h6>
+                            <span>Co-Founder</span>
+                            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
+                                laudantium, quaeillo inventore veritatis et quasi architecto beatae vitae dicta sunt
+                                explicabo.</p>
+                            <img src="img/user2.jpg">
+                        </div>
+                        <div class="item  text-left">
+                            <h6>Lissa Castro</h6>
+                            <span>Co-Founder</span>
+                            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
+                                laudantium, quaeillo inventore veritatis et quasi architecto beatae vitae dicta sunt
+                                explicabo.</p>
+                            <img src="img/user3.jpg">
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div> -->
+        
+
+
+
+    <!-- </section> -->
+        <!-- Student say end -->
+
+
+
+
+
+        <!-- Our Blog start  -->
+        <section id="ourblog">
+            <div class="container">
+                <div class="row justify-content-center" data-aos="fade-up" data-aos-duration="3000">
+                    <div class="col-lg-6 mb-5 mt-5">
+                        <div class="text-center">
+                            <div class="heading_s1 text-center">
+                                <h2 class="chooseedu">Our Blog</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row" data-aos="fade-up" data-aos-duration="3000">
+
+                    <div class="col-lg-4" data-aos="fade-up" data-aos-duration="3000">
+                        <div class="card">
+                            <div class="card-img-top">
+                                <img src="img/blog_small_img1.jpg">
+
+                            </div>
+                            <div class="card-body">
+                                <a href="#">
+                                    <h5 class="card-title">Why are tickets to fly to Lagos expensive?</h5>
+                                </a>
+                                <p class="card-text">If you are going to use a passage of Lorem Ipsum you need to be
+                                    sure there anything embarrassing hidden in the middle of text</p>
+                                <a href="#">Read More</a>
+                            </div>
+                            <div class="card-footer">
+                                <ul>
+                                    <li><a href="#" class="card-link"><i class="far fa-calendar"></i> 15 May,
+                                            2019</a>
+                                    </li>
+                                    <li><a href="#" class="card-link"><i class="fas fa-comments"></i> 2 Comment</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4" data-aos="fade-up" data-aos-duration="3000">
+                        <div class="card">
+                            <div class="card-img-top">
+                                <img src="img/blog_small_img2.jpg">
+
+                            </div>
+                            <div class="card-body">
+                                <a href="#">
+                                    <h5 class="card-title">Why are tickets to fly to Lagos expensive?</h5>
+                                </a>
+                                <p class="card-text">If you are going to use a passage of Lorem Ipsum you need to be
+                                    sure there anything embarrassing hidden in the middle of text</p>
+                                <a href="#">Read More</a>
+                            </div>
+                            <div class="card-footer">
+                                <ul>
+                                    <li><a href="#" class="card-link"><i class="far fa-calendar"></i> 15 May,
+                                            2019</a>
+                                    </li>
+                                    <li><a href="#" class="card-link"><i class="fas fa-comments"></i> 2 Comment</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4" data-aos="fade-up" data-aos-duration="3000">
+                        <div class="card">
+                            <div class="card-img-top">
+                                <img src="img/blog_small_img3.jpg">
+
+                            </div>
+                            <div class="card-body">
+                                <a href="#">
+                                    <h5 class="card-title">Why are tickets to fly to Lagos expensive?</h5>
+                                </a>
+                                <p class="card-text">If you are going to use a passage of Lorem Ipsum you need to be
+                                    sure there anything embarrassing hidden in the middle of text</p>
+                                <a href="#">Read More</a>
+                            </div>
+                            <div class="card-footer">
+                                <ul>
+                                    <li><a href="#" class="card-link"><i class="far fa-calendar"></i> 15 May,
+                                            2019</a>
+                                    </li>
+                                    <li><a href="#" class="card-link"><i class="fas fa-comments"></i> 2 Comment</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="row d-flex justify-content-center" data-aos="fade-up" data-aos-duration="1000">
+                    <div class="col-md-4 text-center">
+                        <button class="btn text-white btn-warning">
+                            View All Blog <i class="fas fa-arrow-right"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Our Blog end -->
+
+
+
+
+        <!-- Our Client start -->
+        <section id="ourclient">
+            <div class="container" data-aos="fade-up" data-aos-duration="3000">
+                <div class="row justify-content-center">
+                    <div class="col-md-6">
+                        <div class="text-center animation animated fadeInUp" data-animation="fadeInUp"
+                            data-animation-delay="0.02s" style="animation-delay: 0.01s; opacity: 1;">
+                            <div class="heading_s1 text-center">
+                                <h2 class="mostpop">Our Client</h2>
+                            </div>
+                            <p>If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't
+                                anything embarrassing hidden in the middle of text</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="owl-carousel owl-theme">
+                        <div class="item">
+                            <a href="#"><img src="img/cl_logo1.png"></a>
+                        </div>
+                        <div class="item">
+                            <a href="#"><img src="img/cl_logo2.png"></a>
+                        </div>
+                        <div class="item">
+                            <a href="#"><img src="img/cl_logo3.png"></a>
+                        </div>
+                        <div class="item">
+                            <a href="#"><img src="img/cl_logo4.png"></a>
+                        </div>
+                        <div class="item">
+                            <a href="#"><img src="img/cl_logo5.png"></a>
+                        </div>
+                        <div class="item">
+                            <a href="#"><img src="img/cl_logo3.png"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Our Client end -->
+
+
+
+
+
     </main>
+    <footer>
+        <!-- Coaching Start -->
+        <section id="coaching">
+            <div class="container">
+                <div class="row justify-content-between">
+                    <div class="col-lg-8">
+                        <h2>Get The Coaching Training Today!</h2>
+                        <p>If you are going to use a passage of embarrassing hidden in the middle of text</p>
+                    </div>
+                    <a class="btn btn-outline-secondary animation animated fadeInUp" style="height:20%;margin-top: 2%;"
+                        href="#" data-animation="fadeInUp" data-animation-delay="1.8s"
+                        style="animation-delay: 1.8s; opacity: 1;">Learn
+                        More</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Coaching end -->
+        <!-- Footer information START -->
+        <section id="footer-info">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3">
+                        <div class="contact_info">
+                            <img src="img/logo_white.png">
+                            <p>Phasellus blandit massa enim. elit id varius nunc. Lorem ipsum dolor sit amet,
+                                consectetur industry.</p>
+                            <ul>
+                                <li><i class="fas fa-map-marker-alt"></i> Califonia Street san Francisco</li>
+                                <li><i class="fas fa-envelope"></i><a href="#"> info@sitename.com</a></li>
+                                <li><i class="fas fa-mobile-alt"></i> + 457 789 789 65</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-2">
+                        <div class="widget_links">
+                            <h5>Useful Links</h5>
+                            <ul>
+                                <li><a href="#">Join Us</a></li>
+                                <li><a href="#">About Us</a></li>
+                                <li><a href="#">Features</a></li>
+                                <li><a href="#">Feedback</a></li>
+                                <li><a href="#">Support center</a></li>
+                                <li><a href="#">Contact Us</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="recent-posts">
+                            <h5>Recent Posts</h5>
+                            <ul>
+                                <li>
+                                    <div class="item">
+                                        <img src="img/letest_post1.jpg">
+                                        <div class="link">
+                                            <p><a href="#">Lorem ipsum dolor sit amet, consectetur</a></p>
+                                            <p>April 14, 2018</p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="item">
+                                        <img src="img/letest_post2.jpg">
+                                        <div class="link">
+                                            <p><a href="#">Lorem ipsum dolor sit amet, consectetur</a></p>
+                                            <p>April 14, 2018</p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="item">
+                                        <img src="img/letest_post3.jpg">
+                                        <div class="link">
+                                            <p><a href="#">Lorem ipsum dolor sit amet, consectetur</a></p>
+                                            <p>April 14, 2018</p>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+
+
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="newsletter_form">
+                            <h5>Subscribe Newsletter</h5>
+                            <p>Contrary to popular belief of lorem Ipsm Latin amet ltin from consectetur industry.</p>
+                            <form>
+                                <div class="form-group">
+                                    <input type="email" class="form-control" id="exampleInputEmail1"
+                                        aria-describedby="emailHelp" placeholder="Email Adress" required>
+                                </div>
+                                <button type="submit" class="btn btn-colors text-white btn-warning">Subscribe!</button>
+                            </form>
+                            <h5>Follow Us</h5>
+                            <ul>
+                                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+                                <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+                                <li><a href="#"><i class="fas fa-camera-retro"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Footer information START -->
+
+        <!-- Bottom footer privacy policy START -->
+        <section id="privacy-policy">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-md-6">
+                        <div class="copy-rights">
+                            <p>© 2019 All Rights Reserved by Eduglobal</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="terms">
+                            <ul>
+                                <li><a href="#">Privacy Policy</a></li>
+                                <li><a href="#">Terms & Conditions</a></li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Bottom footer privacy policy START -->
+
+
+    </footer>
+
+
+
+
 
 
 
@@ -1084,12 +1606,17 @@
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.js"></script>
+    
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
     <!-- own JS -->
+    
     <script src="js/main.js"></script>
 </body>
 

@@ -1,0 +1,31 @@
+#privacy-policy {
+    padding: 30px 0px 15px;
+    background-color: #212427;
+    color: $helper-color-white;
+
+    .terms {
+        
+        margin-left: 228px;
+        ul {
+
+               list-style: none;
+               margin-left: 10px;
+
+            li {
+                display: inline-block;
+                margin-left: 10px;
+
+                a{
+                    text-decoration-line:none;
+                    color: $helper-color-white;
+
+                    &:hover {
+                        color: $default-color;
+                        transition: 0.5s;
+                    
+                    }
+                }
+            }
+        }
+    }
+}

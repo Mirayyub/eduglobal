@@ -9,11 +9,13 @@
             box-shadow: 0 0 10px rgb(190, 189, 189);
             overflow: hidden;
             padding-bottom: 0;
+            cursor: pointer;
             
 
-            img {
+            img{
                 width: 100%;
                 height: 100%;
+                transition: all 0.5s;
             }
 
             &:hover {
@@ -31,7 +33,7 @@
 
         .card-body {
 
-            color: gray;
+            color: $gray-color;
 
             a {
                 text-decoration: none;
@@ -44,7 +46,7 @@
                 }
 
                 &:hover {
-                    color: lightgreen;
+                    color: $default-color;
                     transition: 0.5s;
                 }
             }
@@ -58,10 +60,10 @@
                     display: inline-block;
                     
                     a{
-                        color: #d85040;
+                        color: $google-hover;
                     }
                     span {
-                        color:#d85040;
+                        color:$google-hover;
                     }
                 }
             }
