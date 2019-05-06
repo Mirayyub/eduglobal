@@ -18,53 +18,29 @@ li {
 /////////////////////////////////////////////////////////////////////////////
 
 .btn-outline-secondary {
-  background-color: transparent;
+  
   color: $helper-color-white;
   border: 1px solid $helper-color-white;
   padding: 3px 10px;
   position: relative; 
   overflow: hidden;
-  transition: all 0.5s;
-  // background: linear-gradient(to right, rgb(56, 44, 44) 50%, rgb(145, 56, 56) 50%);
-  // background-position: right left;
-  // transition: all .5s ease-out;
-
-  
-   &:hover {
-       color: $default-color;
-       border-color: $helper-color-white;
-       &::after {
-          content:'';
-          position: absolute;
-          top: 0;
-          left: 0;          
-          z-index:-888;
-          background-color: $helper-color-white;
-          overflow: hidden;    
-          height: 100%;
-          width: 100%;      
-          
-       }
-   }
+    
+    
+    background: linear-gradient( to left, #ebebeb00 50%,     rgba(255, 255, 255, 0.979) 50% );
+	background-size: 200% 100%;
+	background-position: right bottom;
+    cursor: pointer;
+    transition: all ease .5s;
+    
+    &:hover {
+        background-position: left bottom;
+        color: $default-color;
+        border: 1px solid $helper-color-white;
+    }
 }
+
 /////////////////////////////////////////////////////////////////////////////
-// .btn-outline-secondary {
-//   border: 1px solid black;
-//   border-radius: 3px;
-//   width: 100px;
-//   height: 30px;
-  
 
-//   background: linear-gradient(to right, rgb(56, 44, 44) 50%, rgb(145, 56, 56) 50%);
-//   background-position: right bottom;
-//   transition: all .5s ease-out;
-//   background-size: 200% 100%;
-  
-// }
-
-// .button:hover {
-//   background-position: left bottom;
-// }
 ///////////////////////////////////////////////////////////////////////////////
 .btn-warning {
   @include transition(all 0.5s);

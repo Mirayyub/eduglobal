@@ -67,24 +67,7 @@ $('ul li').click(function () {
 //  Isotop gallery end
 
 
-// our teacher start
 
-var cardImg = $("#our-teachers .card-img-top")
-var logos = $("#our-teachers .card-img-top .social-media")
-for (let i = 0; i < cardImg.length; i++) {
-  $(cardImg[i]).mouseover(function () {
-    $(logos[i]).stop();
-    $(logos[i]).animate({ top: "120px" });
-  })
-
-  $(cardImg[i]).mouseout(function () {
-    $(logos[i]).stop();
-    $(logos[i]).animate({ top: "255px" });
-  })
-
-}
-
-// Our teacher stop
 
 
 
