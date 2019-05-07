@@ -44,7 +44,6 @@ ol, ul {
 }
 
 .nav-item {
-  font-size: small;
   font-weight: 700;
 }
 
@@ -73,7 +72,7 @@ ol, ul {
 }
 
 #header-contact .contact-details .item {
-  display: inline;
+  display: inline-block;
   margin-right: 15px;
 }
 
@@ -99,7 +98,7 @@ ol, ul {
 }
 
 #header-contact .centersocial-modal .social::after {
-  content: '';
+  content: "";
   position: absolute;
   height: 20px;
   top: 2px;
