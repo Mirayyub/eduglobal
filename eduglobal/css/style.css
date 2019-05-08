@@ -611,6 +611,18 @@ section {
   padding-bottom: 50px;
 }
 
+#ourcourses .pagedots {
+  padding: 100px 0 0 0;
+}
+
+#ourcourses .pagedots span {
+  cursor: pointer;
+  padding: 8px 16px;
+  margin: 5px;
+  border-radius: 50px;
+  border: 1px solid #bbbb;
+}
+
 #ourcourses .card {
   border-radius: 10px;
   -webkit-box-shadow: 0 0 10px #bebdbd;
@@ -776,6 +788,18 @@ section {
   padding: 100px 0;
 }
 
+#event .pagedots {
+  padding: 100px 0 0 0;
+}
+
+#event .pagedots span {
+  cursor: pointer;
+  padding: 8px 16px;
+  margin: 5px;
+  border-radius: 50px;
+  border: 1px solid #bbbb;
+}
+
 #event .card {
   margin-bottom: 7%;
   border-radius: 10px;
@@ -791,6 +815,24 @@ section {
   height: 100%;
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
+  position: relative;
+}
+
+#event .card .event-date {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  max-width: 75px;
+  background-color: #fff;
+  text-align: center;
+  width: 100%;
+  border-radius: 5px;
+}
+
+#event .card .event-date span {
+  display: block;
+  color: #fff;
+  background-color: #FFBC09;
 }
 
 #event .card:hover .card-img-top img {

@@ -13,6 +13,7 @@ $(document).ready(function () {
 
 
 
+
   // Modal open start
   $('#myModal').on('shown.bs.modal', function () {
     $('#myInput').trigger('focus')
@@ -23,7 +24,7 @@ $(document).ready(function () {
 
   // Slider carusel start
   $('.carousel').carousel({
-    interval: 20000
+    interval: 3000,
   })
   // Slider carusel end
 
@@ -35,6 +36,8 @@ $(document).ready(function () {
     loop: true,
     margin: 10,
     nav: false,
+    autoplay: true,
+    autoplayTimeout: 3000,
     dots: false,
     responsive: {
       0: {
@@ -50,7 +53,7 @@ $(document).ready(function () {
   })
   // Owl carusel end
 
-  
+
 
 
 
@@ -101,7 +104,10 @@ $(document).ready(function () {
   });
 
 
-
+  jQuery(window).load(function () { // makes sure the whole site is loaded
+    jQuery("#status").fadeOut(); // will first fade out the loading animation
+    jQuery("#preloader").delay(1000).fadeOut("slow"); // will fade out the white DIV that covers the website.
+  })
 
 
 });
