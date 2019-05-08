@@ -6,7 +6,7 @@ padding:100px 0;
         border-radius: 0 1000px 1000px 0;
         border: none;
         left: -50px;
-        background-color: white;
+        background-color: $helper-color-white;
         box-shadow: 0 0 10px rgb(172, 170, 170);
         width: 720px;
         margin-top: 20px;
@@ -44,7 +44,7 @@ padding:100px 0;
     
     
     .videoplay {
-        width: 674px;
+        width: 550px;
         height: 450px;
         overflow: hidden;
         position: relative;
@@ -80,10 +80,10 @@ padding:100px 0;
             line-height: 50px;
             text-align: center;
             border-radius: 100%;
-            $helper-color-white: white;
+            $helper-color-white: $helper-color-white;
             color: $default-color;
-            top: 45%;
-            left: 57%;
+            top: 38%;
+            left: 45%
 
             
            
