@@ -31,11 +31,10 @@
 }
 
 .nav-item {
-  
   font-weight: 700;
 }
 
-.navbar-light {
+.navbar-light {flex-wrap: nowrap;
   .navbar-nav {
     .nav-link {
       color: $background-color;
@@ -56,11 +55,10 @@
 }
 
 #header-contact {
-  height: 50px;
+  
   background-color: $background-color;
-  color: $helper-color-white;
-
-  line-height: 20px;
+    color: #fff;
+    padding: 12px 0px 0px 0px;
 
   .contact-details {
     .item {

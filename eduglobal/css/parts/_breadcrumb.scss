@@ -1,0 +1,28 @@
+#breadcrumb {
+    background-image: url("../img/teacher_bg.jpg");
+    background: cover;
+    
+    
+    .container-fluid {
+      padding: 100px 0;
+      background-color: rgba(0, 0, 0, 0.829);
+      a {
+        color: white;
+        transition: 0.5s;
+        &:hover{
+            text-decoration: none;
+            color: $default-color;
+        }
+      }
+      h2{
+        color: $helper-color-white;
+        
+      }
+      h6 {
+        color: $helper-color-white;
+        line-height: 40px;
+      }
+
+    }
+  }
+  

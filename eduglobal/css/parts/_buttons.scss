@@ -7,7 +7,7 @@ li {
         color: $default-color !important;
       }
     }
-    // color: $helper-color-white
+    
     @include transition(all 0.5s);
     &:hover {
       color: $default-color !important;
@@ -76,8 +76,8 @@ li {
 
     &::before {
       overflow: hidden;
-      transform: skewX(-60deg);
-      transform: translate(2000px, 500px);
+      transform: skewX(-30deg);
+      transform: translate(1000px, 500px);
       transition: 5s;
     }
     
