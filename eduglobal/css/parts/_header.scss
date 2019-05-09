@@ -29,12 +29,19 @@
     text-decoration-line: none;
   }
 }
-
-.nav-item {
-  font-weight: 700;
+.navbar-nav {
+  .nav-item {
+    font-weight: 700;
+    &:hover {
+      .dropdown-menu {
+        display: block;
+      }
+    }
+  }
 }
 
-.navbar-light {flex-wrap: nowrap;
+.navbar-light {
+  flex-wrap: nowrap;
   .navbar-nav {
     .nav-link {
       color: $background-color;
@@ -55,10 +62,9 @@
 }
 
 #header-contact {
-  
   background-color: $background-color;
-    color: #fff;
-    padding: 12px 0px 0px 0px;
+  color: #fff;
+  padding: 12px 0px 0px 0px;
 
   .contact-details {
     .item {
