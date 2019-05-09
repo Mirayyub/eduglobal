@@ -19,7 +19,11 @@
     li {
       padding-left: 20px;
       i {
+        transition: all 0.3s;
         color: $helper-color-white;
+        &:hover {
+          color: $default-color;
+        }
       }
     }
   }

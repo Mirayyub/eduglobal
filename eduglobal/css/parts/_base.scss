@@ -13,10 +13,3 @@ ol, ul {
     border-radius: 10px;
 }
 
-.dropdown-toggle{
-    &:hover{
-        .dropdownmenu{
-            display: block;
-        }
-    }
-}

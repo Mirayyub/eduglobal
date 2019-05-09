@@ -1,0 +1,153 @@
+#eventdetail {
+  padding-top: 100px;
+  .bigimage {
+    img {
+      width: 100%;
+      position: relative;
+    }
+    .infoday {
+      text-align: center;
+      position: absolute;
+      top: 10px;
+      left: 25px;
+      .day {
+        background-color: $helper-color-white;
+        font-weight: bold;
+        border-radius: 5px 5px 0 0;
+        p {
+          margin: 0;
+          font-size: 24px;
+        }
+      }
+      .clock {
+        padding: 5px;
+        background-color: $default-color;
+        color: $helper-color-white;
+        font-weight: 500;
+        border-radius: 0 0 5px 5px;
+        p {
+          margin: 0;
+        }
+      }
+    }
+  }
+  .newshead {
+    justify-content: space-between;
+    .name {
+      margin-right: 50%;
+      span {
+        cursor: pointer;
+        color: $default-color;
+      }
+    }
+    .linkssocia {
+      i {
+        cursor: pointer;
+        transition: all 0.3s;
+        padding-right: 6px;
+        &:hover {
+          color: $default-color;
+        }
+      }
+    }
+    p {
+      color: $shadow-color;
+    }
+    .entrycontent {
+      border-radius: 10px;
+      width: 100%;
+      padding: 20px;
+      -webkit-box-shadow: 0px 0px 10px 0px $shadow-color;
+      box-shadow: 0px 0px 10px 0px $shadow-color;
+
+      input {
+        padding: 18px 20px;
+        width: 40%;
+        margin-top: 10px;
+        border: 1px solid #d8d7d7;
+        border-radius: 10px;
+        &:focus {
+          box-shadow: none;
+        }
+      }
+      textarea {
+        padding: 22px 22px;
+        width: 86%;
+        margin: 20px 0;
+        border: 1px solid #d8d7d7;
+        border-radius: 10px;
+        &:focus {
+          box-shadow: none;
+        }
+      }
+      a {
+        padding: 12px 25px;
+        font-size: 1.3rem;
+      }
+    }
+  }
+  .countdowntime {
+    background-color: $default-color;
+    padding: 30px;
+    text-align: center;
+    color: white;
+    font-size: 24px;
+    border-radius: 5px;
+  }
+  .side-bar {
+    .item {
+      display: flex;
+      a {
+        color: $background-color;
+        text-decoration-line: none;
+        transition: 0.5s;
+        &:hover {
+          color: $default-color;
+        }
+      }
+    }
+    .course-categories {
+      .cat-link {
+        a {
+          label {
+            font-size: 1.3rem;
+            cursor: pointer;
+          }
+        }
+
+        a {
+          color: $background-color;
+          text-decoration-line: none;
+          transition: 0.5s;
+          &:hover {
+            color: $default-color;
+          }
+        }
+      }
+    }
+    .tags {
+      .tag {
+        padding: 6px 10px;
+        margin: 3px;
+        border: 0.5px solid #b3b3b3;
+        -webkit-transition: 0.3s;
+        transition: 0.3s;
+        cursor: pointer;
+        &:hover {
+          background-color: $default-color;
+          a {
+            color: $helper-color-white;
+          }
+        }
+        a {
+          color: $background-color;
+          text-decoration-line: none;
+          transition: 0.3s;
+          &:hover {
+            color: $helper-color-white;
+          }
+        }
+      }
+    }
+  }
+}

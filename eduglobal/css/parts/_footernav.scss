@@ -2,11 +2,6 @@
   padding: 100px 0;
   background-color: #343a40;
   color: $helper-color-white;
-  
-
-  
-
-  
 
   a {
     text-decoration: none;
@@ -18,7 +13,6 @@
     }
   }
   ul {
-    
     padding: 0;
   }
   .contact_info {
@@ -34,19 +28,23 @@
   .widget_links {
     li {
       margin: 10px 0;
+      transition: all 0.4s;
+      &:hover {
+        padding:0 0 0 8px;
+      }
+      
     }
   }
 
   .recent-posts {
     .item {
-      
       position: relative;
       margin-bottom: 10px;
 
       .link {
         width: 190px;
         position: absolute;
-        
+
         top: 0;
         left: 60px;
         padding: 0 10px;
@@ -78,7 +76,7 @@
       border-radius: 5px;
       background-color: rgba(255, 255, 255, 0.116);
       text-align: center;
-      
+
       cursor: pointer;
     }
 
@@ -89,7 +87,6 @@
         position: absolute;
         right: 2px;
         top: 2px;
-        
       }
     }
   }
