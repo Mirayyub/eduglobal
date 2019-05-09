@@ -11,6 +11,10 @@ ol, ul {
   border-radius: 10px;
 }
 
+#header-navbar {
+  background-color: #fff;
+}
+
 #header-contact {
   background-color: #343a40;
   padding: 10px 0px;
