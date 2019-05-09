@@ -59,6 +59,8 @@ $(document).ready(function () {
 
 
 
+
+
   //  Isotop gallery start 
   $('.gallery-item').isotope({
     itemSelector: '.item'
